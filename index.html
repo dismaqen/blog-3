@@ -1,15 +1,122 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
+  <meta name="mnd-ver" content="xb9hxalkdtcv7bn7qvn0g" />
   <meta charset="UTF-8">
-  <title>Auto Simulate Click</title>
+  <title>Game Cuan: Tebak Angka</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="6a97888e-site-verification" content="29ef8b36cc96d0094422c121e5677451">
+  <meta name="ppck-ver" content="7cbe32dd38ad3c25338896692732e9bc" />
+
+  <meta name="clckd" content="7f6d8dce666b43347b4b16d8deec5c04" />
+
+  <meta name="juicyads-site-verification" content="4fd01f291ea517c05114c5a7e79b097e">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    input, button {
+      padding: 10px;
+      margin: 5px;
+      font-size: 18px;
+    }
+
+    #result {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #0f0;
+    }
+  </style>
 </head>
 <body>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      // Trik langsung pakai window.open
-      window.open("https://cylindrical-wave.com/bc3uVm0UP.3cpQvKbymkVQJ/Z-Da0G2mNxTtEb1xM/TDU/wlLmToY/1tMKTsUYxuNFTIEe", "_blank");
-    });
+
+  <h1>🎮 Tebak Angka 1-10</h1>
+  <p>Kalau kamu hoki, cuan datang! 😎</p>
+
+  <input type="number" id="guess" placeholder="Tebak angka 1-10" min="1" max="10">
+  <button onclick="checkGuess()">Tebak!</button>
+
+  <div id="result"></div>
+
+  <!-- PopCash Script -->
+  <script data-cfasync="false" type="text/javascript" src="https://www.popcash.net/pop.js"></script>
+  <script type="text/javascript">PopcashSiteId = 123456;</script>
+
+  <!-- PopCash Extra Script 1 -->
+  <script type="text/javascript">
+    var uid = '488637';
+    var wid = '741404';
+    var pop_tag = document.createElement('script');
+    pop_tag.src = '//cdn.popcash.net/show.js';
+    document.body.appendChild(pop_tag);
+    pop_tag.onerror = function() {
+      pop_tag = document.createElement('script');
+      pop_tag.src = '//cdn2.popcash.net/show.js';
+      document.body.appendChild(pop_tag);
+    };
   </script>
+
+  <!-- PopCash Extra Script 2 with fallback -->
+  <script type="text/javascript">
+    var uid = '488637';
+    var wid = '741404';
+    var pop_fback = 'up';
+    var pop_tag = document.createElement('script');
+    pop_tag.src = '//cdn.popcash.net/show.js';
+    document.body.appendChild(pop_tag);
+    pop_tag.onerror = function() {
+      pop_tag = document.createElement('script');
+      pop_tag.src = '//cdn2.popcash.net/show.js';
+      document.body.appendChild(pop_tag);
+    };
+  </script>
+
+  <!-- MrMND Ads Script -->
+  <script async src="https://ss.mrmnd.com/interstitial.js" data-mndintid="e591ed51-7f8a-41d3-ae2e-d98344578cab"></script>
+  <script async src="https://ss.mrmnd.com/static/ea52301f-a55f-4646-bd86-cbbc2f803379.js"></script>
+
+  <script>
+    const numberToGuess = Math.floor(Math.random() * 10) + 1;
+    function checkGuess() {
+      const guess = parseInt(document.getElementById('guess').value);
+      const result = document.getElementById('result');
+      if (guess === numberToGuess) {
+        result.textContent = "🎉 Benar! Kamu menang cuan!";
+      } else {
+        result.textContent = "❌ Salah bro, coba lagi.";
+      }
+    }
+  </script>
+
+  <!-- PopMagic -->
+  <script type="application/javascript">
+    var ad_idzone = "5663670",
+    ad_popup_fallback = false,
+    ad_popup_force = false,
+    ad_chrome_enabled = true,
+    ad_new_tab = false,
+    ad_frequency_period = 720,
+    ad_frequency_count = 1,
+    ad_trigger_method = 3,
+    ad_trigger_delay = 0,
+    ad_capping_enabled = true; 
+  </script>
+  <script type="application/javascript" src="https://a.pemsrv.com/popunder1000.js"></script>
+
+  <!-- Tambahan AdProvider magsrv -->
+  <script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script> 
+  <ins class="eas6a97888e2" data-zoneid="5663676"></ins> 
+  <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
+
 </body>
 </html>
